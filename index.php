@@ -17,6 +17,13 @@ $test = 'PHP';
 
     <h1>Hello <?php echo $test ?>!</h1>
 
+    <form action="script.php" method="$_GET">
+
+        <input type="text" name="nome">
+        <button type="submit">Invia</button>
+
+    </form>
+
 
 </body>
 
